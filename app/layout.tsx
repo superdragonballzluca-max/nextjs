@@ -1,8 +1,8 @@
-import 'bootstrap-icons'
-import 'boxicons'
+import "bootstrap-icons/font/boostrap-icons.css";
+import "boxicons/css/boxicons.css";
 
-import 'bootstrap'
-import 'glightbox'
+import "boostrap/dist/css/bootstrap.css";
+import "glightbox/dist/css/glightbox.css";
 
 
 import type { Metadata } from "next";
