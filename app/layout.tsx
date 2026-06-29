@@ -1,9 +1,3 @@
-import "bootstrap-icons/font/boostrap-icons.css";
-import "boxicons/css/boxicons.css";
-
-import "boostrap/dist/css/bootstrap.css";
-import "glightbox/dist/css/glightbox.css";
-
 
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
