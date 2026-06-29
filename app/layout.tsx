@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootsrap-icon.css"
+import "boxicons/css/boxicons.css"
+import "glightbox/dist/css/glightbox.css"
 
 const raleway  = Raleway({ subsets: ["latin"]
 });
