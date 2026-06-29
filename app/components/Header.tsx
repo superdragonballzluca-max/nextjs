@@ -1,11 +1,7 @@
-import React from 'react';
-import './header.css';
+import React from 'react'
 
 export default function Header() {
   return (
-    <header 
-    > 
-    <Nav/>
-    </header>
+    <div>Header</div>
   )
 }
