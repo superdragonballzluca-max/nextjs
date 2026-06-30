@@ -2,8 +2,11 @@ import Hero from "./sections/Hero";
 
 export default function Home() {
   return (
-    <Hero> 
-      
-    </Hero>
+    <Hero/> 
+    <main id="id">
+      <About/>
+    </main>
+
+    
   );
 }
