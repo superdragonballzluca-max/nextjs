@@ -4,10 +4,10 @@ import Nav from './Nav';
 
 export default function Header() {
   return (
-    <Header id="header" className="d-flex flex-column justify-content-center">
+    <header id="header" className="d-flex flex-column justify-content-center">
       <Nav>
 
       </Nav>
-    </Header>
+    </header>
   );
 }
