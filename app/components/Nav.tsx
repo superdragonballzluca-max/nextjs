@@ -7,14 +7,17 @@ import './nav.css';
 export default function Nav() {
     const [navList, setNavList] = useState(navs);
 
+    const handleScrollTo = (section: string) => {};
+
     return (
         <nav id="navbar" className="navbar nav-menu">
             <ul>
-                {navList.map((nav) => (
-                    <li >
+                {navList.map(nav => (
+                    <li>
                         <a
+                            onClick={() => handleScrollTo(nav.target)}
                             className={`nav-link scrollto ${
-                                nav.active ? 'active' : undefined
+                                nav.active ? "active" : undefined
                             }`}
                         >
                             <i className={nav.icon}></i>
