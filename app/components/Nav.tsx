@@ -1,8 +1,28 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
+import { navs } from '../data/data';
 import './nav.css';
 
 export default function Nav() {
-  return (
-    <div>Nav</div>
-  )
+    const [navList, setNavList] = useState(navs);
+
+    return (
+        <nav id="navbar" className="navbar nav-menu">
+            <ul>
+                {navList.map((nav) => (
+                    <li >
+                        <a
+                            className={`nav-link scrollto ${
+                                nav.active ? 'active' : undefined
+                            }`}
+                        >
+                            <i className={nav.icon}></i>
+                            <span>{nav.name}</span>
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </nav>
+    );
 }
