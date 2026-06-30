@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css"
 import "boxicons/css/boxicons.css"
 import "glightbox/dist/css/glightbox.css"
+import Header from "./components/Header";
 
 const raleway  = Raleway({ subsets: ["latin"]
 });
@@ -25,7 +26,9 @@ export default function RootLayout({
     <html
       lang="en">
       <body className={raleway.className}>
-        <header></header>
+        <Header>
+          
+        </Header>
         {children}</body>
     </html>
   );
