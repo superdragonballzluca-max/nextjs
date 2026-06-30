@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import SectionTitle from '../components/SectionTitle';
-import profileImg from "/public/assets/images/profile-img.jpg";
+import profileImg from '../public/assets/images/profile-img.jpg';
 import Image from 'next/image';
 
 export default function About() {
