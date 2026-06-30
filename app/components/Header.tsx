@@ -3,6 +3,10 @@ import './header.css';
 
 export default function Header() {
   return (
-    <div>Header</div>
-  )
+    <header id="header" className="d-flex flex-column justify-content-center">
+      <Nav>
+        
+      </Nav>
+    </header>
+  );
 }
