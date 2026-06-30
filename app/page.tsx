@@ -1,5 +1,9 @@
+import Hero from "./sections/Hero";
+
 export default function Home() {
   return (
-    <h1>Luchana c'est la meilleur </h1>
+    <Hero> 
+      
+    </Hero>
   );
 }
