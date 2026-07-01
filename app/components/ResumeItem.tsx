@@ -8,7 +8,7 @@ export default function ResumeItem({
     title: string;
     period: string;
     brief: string;
-    details: [string];
+    details: string[];
   };
 }) {
   return (
