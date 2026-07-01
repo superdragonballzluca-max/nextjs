@@ -14,7 +14,7 @@ const raleway  = Raleway({ subsets: ["latin"]
 
 export const metadata: Metadata = {
   title: "Nightforge Performance",
-  description: "Site de Nightforge Performance",
+  description: "Nightforge Performance : forgée dans la nuit, révélé dans la lumière",
 };
 
 export default function RootLayout({
