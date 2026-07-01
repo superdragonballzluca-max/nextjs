@@ -38,6 +38,19 @@ export default async function Resume() {
   </div>
 
   <div className="col-lg-6"></div>
+  <h3 className="resume-title">{items[1].category}</h3>
+
+    {items &&
+      items.length > 0 &&
+      items[1].content.map(
+        (item: {
+          id: number;
+          title: string;
+          period: string;
+          brief: string;
+          details: [string];
+        }) => <ResumeItem key={item.id} item={item} />
+      )}
 </div>
       </div>
     </section>
