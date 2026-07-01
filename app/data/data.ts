@@ -89,7 +89,7 @@ export const resume = [
   },
       {
         id: 2,
-        category:'Education'
+        category:'Education',
        content: [
   {
     id: 1,
