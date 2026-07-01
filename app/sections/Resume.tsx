@@ -1,6 +1,7 @@
 import React from 'react';
 import './resume.css';
 import SectionTitle from '../components/SectionTitle';
+import ResumeItem from '../components/ResumeItem';
 
 async function getResumeData() {
   const res = await fetch('http://localhost:3001/api/resume');
